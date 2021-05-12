@@ -13,6 +13,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+*{
+  box-sizing: border-box;
+}
+
 /* Sections
    ========================================================================== */
 
@@ -22,6 +26,8 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Open Sans';
+  font-weight: 400;
 }
 
 /**
@@ -211,6 +217,10 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
+ul{
+  padding: 0px;
+  margin: 0px;
+}
 /**
  * Restore the focus styles unset by the previous rule.
  */
